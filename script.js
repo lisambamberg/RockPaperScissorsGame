@@ -11,10 +11,6 @@ const computerPlay = () => {
     }
 }
 
-//const playerOne = 'scissors';
-//const playerTwo = 'paper';
-
-
 const humanSelection = prompt("Rock paper or scissors?"); 
 console.log(humanSelection.toLowerCase());
 
@@ -42,5 +38,3 @@ console.log('Human selection ', lowerHumanSelection);
 console.log('the type of computer selection is ', typeof computerSelection);
 console.log('Computer selection ', computerSelection);
 console.log(playGame(lowerHumanSelection, computerSelection));
-
-
